@@ -62,3 +62,25 @@ li {
   margin: 0 auto;
   text-align: right;
 }
+.overview {
+  margin-bottom: 20px;
+}
+#weather-icon {
+  color: yellow;
+  margin-right: 10px;
+  height: 64px;
+  width: 64px;
+  position: relative;
+  top: -22px;
+}
+#temp {
+  color: blue;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+#units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
