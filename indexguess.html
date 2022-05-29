@@ -11,6 +11,7 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="guess.css" />
   </head>
   <body>
@@ -21,10 +22,10 @@
         <div class="weather-app">
           <div class="overview">
             <h2>Let's check the weather 😎</h2>
-            <h3>Harbor Hills, OH, USA</h3>
+            <h3 id="city"></h3>
             <ul>
               <li>Saturday, 7:00pm</li>
-              <li>Clear and Sunny</li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
@@ -50,9 +51,8 @@
             </div>
             <div class="col-6">
               <ul>
-                <li>Precipitation: 0%</li>
-                <li>Humidity:73%</li>
-                <li>Wind: 2 MPH</li>
+                <li>Humidity: <span id="humidity"></span></li>
+                <li>Wind: <span id="wind"></span></li>
               </ul>
             </div>
           </div>
