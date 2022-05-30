@@ -58,6 +58,7 @@ li:first-letter {
   border: 1px solid navy;
   border-radius: 5px;
 }
+
 #launch-list {
   color: black;
   background-color: lightpink;
@@ -87,4 +88,11 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+#units .active {
+  color: black;
+  cursor: default;
+}
+#units .active:hover {
+  text-decoration: none;
 }
