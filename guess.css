@@ -96,3 +96,8 @@ li:first-letter {
 #units .active:hover {
   text-decoration: none;
 }
+#foot {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}

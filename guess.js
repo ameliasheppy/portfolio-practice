@@ -134,3 +134,5 @@ celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 //it is best to call the search functions at the bottom. Find out why.
 search("New York");
+
+//It is good to put the functions at the top and then call them at the bottom
