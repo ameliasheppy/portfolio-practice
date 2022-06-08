@@ -1,5 +1,5 @@
 body {
-  background: #dbedf3;
+  background-image: linear-gradient(to top, #fff1eb 0%, #ade4fd 100%);
 }
 h1,
 h2,
@@ -9,9 +9,12 @@ h3 {
   margin: 0 auto;
   text-align: center;
 }
+h1,
+h2 {
+  background: #fcf3fe;
+}
 h1 {
   color: black;
-  background: #404b69;
   font-weight: lighter;
   max-width: 70%;
 }
@@ -19,7 +22,6 @@ h1 {
 h2 {
   color: black;
   font-weight: lighter;
-  background: #404b69;
   max-width: 50%;
 }
 h3 {
